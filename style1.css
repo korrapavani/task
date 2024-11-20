@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #FF7E5F, #feb47b); /* Gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Textbox Styles */
+  .textbox {
+    margin-bottom: 20px;
+  }
+  
+  .textbox input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .textbox input:focus {
+    border-color: #ff7e5f; /* Focus border color */
+    outline: none;
+  }
+  
+  /* Login Button Styles */
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #feb47b;
+    transform: scale(1.05); /* Slight scaling effect on hover */
+  }
+  
+  /* Forgot Password Styles */
+  .forgot-password {
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .forgot-password:hover {
+    color: #ff7e5f; /* Hover effect for forgot password */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .login-box {
+      width: 250px; /* Smaller width on smaller screens */
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+    
+    .login-btn {
+      font-size: 14px;
+    }
+  }
+  
